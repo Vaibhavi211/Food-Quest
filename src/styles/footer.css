@@ -1,0 +1,22 @@
+/* Container should take the full height of the viewport */
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Full height of the viewport */
+}
+
+/* Main content should take up remaining space */
+.content-wrapper {
+    flex: 1;
+}
+
+/* Footer styling to keep it fixed at the bottom */
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: -30px;
+}
